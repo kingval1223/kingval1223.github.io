@@ -1,0 +1,80 @@
+@media only screen and (min-width: 1000px) {
+  header, main, footer {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-top: 4rem;
+  }
+
+  .header-right {
+    width: 37rem;
+  }
+
+  .logo  {
+    margin-left: 4rem;
+    margin-top: -4rem;
+  }
+
+  .logo img {
+    width: 8rem;
+  }
+
+  .language {
+    justify-content: flex-end;
+    margin-left: 0;
+  }
+
+  .toggle-menu {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4.5rem;
+    padding-top: 0;
+    background-color: #fff;
+    height: auto;
+    width: auto;
+    text-align: right;
+  }
+  .menu a {
+    margin-left: 0.8rem;
+  }
+
+  .menu li {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .menu .active, .menu a:hover {
+    border-bottom: 0.3rem solid #00b6e8;
+  }
+
+  .cell-half {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .cell-one-third {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .grid-container-footer {
+    text-align: left;
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .bottom-footer, .requirement-items {
+    font-size: 16px;
+  }
+
+  .logo-footer img {
+    width: 7rem;
+  }
+}

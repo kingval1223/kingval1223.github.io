@@ -1,0 +1,18 @@
+/* fonts linken */
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/subset-OpenSans-Regular.woff') format('woff'),
+        url('../fonts/open-sanssubset-OpenSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/subset-Raleway-Regular.woff') format('woff'),
+        url('../fonts/raleway/subset-Raleway-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

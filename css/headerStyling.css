@@ -1,0 +1,90 @@
+/* header styling */
+header {
+  display: block;
+  margin-top: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 8rem;
+}
+
+.logo  {
+  margin-left: 2rem;
+}
+
+.logo img {
+  width: 4rem;
+  border: 0.2rem solid #eaeaea;
+  margin-top: 4rem;
+}
+
+.header-right {
+  width: 100%;
+  margin-right: 2rem
+}
+
+.language {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -4rem;
+}
+
+.nl .selected {
+  color: #FFFFFF;
+  background-color: #00b6e8;
+}
+
+.language a {
+  padding: 0.5rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.toggle-menu {
+  display: block;
+  float: right;
+  padding: 0.7rem;
+  margin-top: -2rem;
+  color: #FFFFFF;
+  background-color: #00b6e8;
+  border: 0;
+}
+
+.menu.is-active {
+  display: block;
+}
+
+.is-active-button {
+  margin-right: 2rem;
+}
+
+.menu {
+  display: none;
+  margin-left: -6rem;
+  margin-top: -4rem;
+  padding-top: 5rem;
+  font-size: 16px;
+  background-color: rgba(158, 158, 158, 0.6);
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.menu li {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.menu .active, .menu a:hover {
+  color: #00b6e8;
+  border-bottom: 0;
+}
